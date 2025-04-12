@@ -3,6 +3,7 @@
 body {
     background:#040404;
 	font-family: 'Fira Sans', sans-serif;
+	color:#ddd;
 }
 
 header {
@@ -210,6 +211,18 @@ border-style: solid;
 	margin-top: ($spacer * 2.25) !important;
 }
 
+.fit-cover {
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .fit-cover {
+    position: absolute;
+  }
+}
+  
+
+
 h2 {
     margin: 0 auto;
     padding: 0;
@@ -231,9 +244,14 @@ h4 {
 }
 
 .sep {
-	border-bottom: 2px solid #000;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	height: 0.75em;
+}
+
+.separador {
+    height: 2px;
+    background: #333;
 }
 
 .card-img-top {
