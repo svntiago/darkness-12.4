@@ -37,12 +37,11 @@
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- TÍTULO -->
     <title>Estación Darkness - BAR</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark fixed-top border-bottom border-white border-2">
     <div class="container-fluid">
         <div class="col-md-3 mb-2 mb-md-0">
             <a class="navbar-brand" href="index.html"><img src="assets/logo.png" class="loguito" alt="logo"></a>
@@ -53,13 +52,19 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                    <a class="nav-link" href="index.html">INICIO</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="cartas.html">CARTAS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="promociones.html">PROMOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="cine.html">CINE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="eventos.html">EVENTOS</a>
                 </li>
                 <li class="nav-item" style="line-height:46px">
                     &#124;
@@ -73,158 +78,165 @@
 </nav>
 <main class="container-xl" style="margin-bottom: 1.5rem;">
 </main>
-<!--
+    <div class="container-xxl mt-3 hoja">
+		<h2 class="display-3">Estás en la estación correcta.</h2>
+		<h4 class="mb-3"><i class="fa-solid fa-calendar"></i> De miércoles a domingo<br>
+    <i class="fa-solid fa-clock"></i> Desde las 17hs<br>
+        <a href="https://goo.gl/maps/R8P38DC32coJ6L977" style="color: #333;"><i class="fa-solid fa-location-dot"></i> 
+            Mariano Fragueiro 1645, Cordoba</a></h4>
+	
+	<div class="separador"></div>
+     <div class="row">
+  
+    <div class="col-sm-6">
+      <div class="card mt-3">
+        <div class="row g-0 d-flex">
+          <div class="col-5">
+            <img class="img-fluid h-100" src="assets/bcarta.png" alt="..." width="200">
+          </div>
+          <div class="col-7">
+            <div class="card-body">
+              <h5 class="card-title">Cartas</h5>
+              <p class="card-text">Mirá la carta del bar o de cafetería, haciendo clic acá.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+         
+    <div class="col-sm-6">
+      <div class="card mt-3">
+        <div class="row g-0 d-flex">
+          <div class="col-5">
+            <img class="img-fluid h-100" src="assets/bpromos.png" alt="..." width="200">
+          </div>
+          <div class="col-7">
+            <div class="card-body">
+              <h5 class="card-title">Promociones</h5>
+              <p class="card-text">Mirá nuestras promos y happy hours haciendo clic acá.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6">
+      <div class="card mt-3">
+        <div class="row g-0 d-flex">
+          <div class="col-5">
+            <img class="img-fluid h-100" src="assets/bhappy.png" alt="..." width="200">
+          </div>
+          <div class="col-7">
+            <div class="card-body">
+              <h5 class="card-title">Eventos</h5>
+              <p class="card-text">Mirá todos los eventos del mes haciendo clic acá.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6">
+      <div class="card mt-3">
+        <div class="row g-0 d-flex">
+          <div class="col-5">
+            <img class="img-fluid h-100" src="assets/bhappy.png" alt="..." width="200">
+          </div>
+          <div class="col-7">
+            <div class="card-body">
+              <h5 class="card-title">Ciclo de cine</h5>
+              <p class="card-text">Mirá todos las proyecciones del mes haciendo clic acá.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+        <div class="sep mb-0"></div>
+</div>
+<div class="sep mt-5"></div>
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="3000">
-		<div class="p-3 bg-danger bg-opacity-10 border-danger border-bottom border-top">
+		<div class="p-3 bg-danger">
 			<h1 class="text-center">Prueba 1</h1>
 			<h6 class="text-center">Texto random para informar.</h6>
 		</div>
 	</div>
 		<div class="carousel-item" data-bs-interval="3000">
-			<div class="p-3 bg-warning bg-opacity-10 border-warning border-bottom border-top">
+			<div class="p-3 bg-warning text-dark">
 					<h1 class="text-center">Prueba 2</h1>
-			     <h6 class="text-center">Texto random para informar.</h6>
+			     <h6 class="text-center text-dark">Texto random para informar.</h6>
 			</div>
 		</div>
 		<div class="carousel-item" data-bs-interval="3000">
-			<div class="p-3 bg-info bg-opacity-10 border-info border-bottom border-top">
+			<div class="p-3 bg-info text-dark">
 					<h1 class="text-center">Prueba 3</h1>
-			     <h6 class="text-center">Texto random para informar.</h6>
+			     <h6 class="text-center text-dark">Texto random para informar.</h6>
 			</div>
 		</div>
 	</div>
 </div>
--->
-<div class="container inicio" style="margin-top: 1.5rem;">
-    <h1 style="margin-bottom:2rem;">¿En qué podemos ayudarte?</h1>
-    <div class="row">
-        <!-- CARTAS -->
-        <div class="col-lg-4">
-            <a href="cartas.html">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 border-black" style="background-image:url(assets/bcarta.png);background-size:cover;background-position:0 70%;">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Cartas</h3>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                                <img src="assets/menu.png" alt="menu" width="24" height="24">
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <small>MIRALAS DESDE ACÁ</small>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </a>
+<div class="sep mt-5"></div>
+<div class="container-xxl mt-3 hoja">
+	<h2 class="mb-4">Links Útiles</h2>
+     <div class="container-fluid px-0">
+  <div class="row">
+  
+    <div class="col-sm-6">
+      <div class="card mt-3">
+        <div class="row g-0 d-flex">
+          <div class="col-5">
+            <img class="img-fluid h-100" src="assets/brappi.png" alt="..." width="200">
+          </div>
+          <div class="col-7">
+            <div class="card-body">
+              <h5 class="card-title">Delivery</h5>
+              <p class="card-text">Hacé tu pedido por Rappi, haciendo clic acá.</p>
+            </div>
+          </div>
         </div>
-        <!-- FIN CARTAS -->
-        <!-- PROMOCIONES -->
-        <div class="col-lg-4">
-            <a href="promociones.html">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 border-black" style="background-image:url(assets/bpromos.png);background-size:cover;background-position:0 30%;">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Promociones</h3>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                                <img src="assets/promo.png" alt="promociones" width="24" height="24">
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <small>EMPEZÁ A AHORRAR</small>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <!-- FIN PROMOCIONES -->
-        <!-- HAPPY HOURS -->
-        <div class="col-lg-4">
-            <a href="happy-hours.html">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 border-black" style="background-image:url(assets/bhappy.png);background-size:cover;background-position:0 70%;">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Happy Hours</h3>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                                <img src="assets/happy.png" alt="happy hour" width="24" height="24">
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <small>MIRÁ LOS HORARIOS Y PRECIOS</small>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <!-- FIN HAPPY HOURS -->
+      </div>
     </div>
-</div>
-<div class="separador" style="margin-top:4rem;"></div>
-<div class="container links-utiles" style="margin-top:2rem;">
-    <h1 style="margin-bottom:2rem;">Links Útiles</h1>
-    <div class="row">
-        <!-- RAPPI -->
-        <div class="col-lg-4">
-            <a href="https://www.rappi.com.ar/restaurantes/209826-estacion-darkness" target="_blank">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4" style="background-image:url(assets/brappi.png);background-size:cover;background-position:0;">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Delivery</h3>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                                <img src="assets/rappi.png" alt="rappi" width="24" height="24">
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                                <small>PEDÍ DESDE ACÁ</small>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </a>
+	
+    <div class="col-sm-6">
+      <div class="card mt-3">
+        <div class="row g-0 d-flex">
+          <div class="col-5">
+            <img class="img-fluid h-100" src="assets/breserva.png" alt="..." width="200">
+          </div>
+          <div class="col-7">
+            <div class="card-body">
+              <h5 class="card-title">Traé tu evento</h5>
+              <p class="card-text">¿Te hace falta un espacio para desarrollar una actividad? Escribinos haciendo clic acá.</p>
+            </div>
+          </div>
         </div>
-        <!-- FIN RAPPI -->
-        <!-- RESERVAS -->
-        <div class="col-lg-4">
-            <a href="https://wa.me/3516080487" target="_blank">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4" style="background-image:url(assets/breserva.png);background-size:cover;background-position:0 30%;">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Reservas</h3>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                                <img src="assets/reserva.png" alt="reservas" width="24" height="24">
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                                <small>HACÉ TU RESERVA ACÁ</small>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <!-- FIN RESERVAS -->
-        <!-- CURRICULUMS -->
-        <div class="col-lg-4">
-            <a href="curriculums.html">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4" style="background-image:url(assets/bcv.png);background-size:cover;background-position:0 70%;">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Trabajá con nosotros</h3>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                                <img src="assets/cv.png" alt="cv" width="24" height="24">
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                                <small>ENVÍA TU CURRICULUM DESDE ACÁ</small>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <!-- CURRICULUMS -->
+      </div>
     </div>
+	
+	<div class="col-sm-6">
+      <div class="card mt-3">
+        <div class="row g-0 d-flex">
+          <div class="col-5">
+            <img class="img-fluid h-100" src="assets/bcv.png" alt="..." width="200">
+          </div>
+          <div class="col-7">
+            <div class="card-body">
+              <h5 class="card-title">Trabajá con nosotros</h5>
+              <p class="card-text">Envía tu CV haciendo clic acá.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	<div class="sep mb-1"></div>
+  </div>
+  </div>
+  
 </div>
+
+<div class="sep mt-5"></div>
 <a href="https://wa.link/r5hnzo" class="whatsapp" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
 <footer class="py-3 my-4" style="border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;">
     <p class="text-center text-body-light">
@@ -234,8 +246,8 @@
         <i class="fa-solid fa-clock"></i> Desde las 17hs<br>
         <i class="fa-solid fa-phone"></i> 3516080487
     </p>
-    <div class="powered" style="border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;">
-        <a class="linkdecode" href="https://wa.me/3517881363" target="_blank"><button class="decode"></button></a>
+    <div class="powered">
+        <a class="linkdecode" href="https://wa.me/3517881363" target="_blank"><img src="assets/decode2.png" class="decode" width="20%"></a>
     </div>
 </footer>
 <script src="bootstrap.bundle.min.js"></script>
